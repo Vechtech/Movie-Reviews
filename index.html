@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#movie1">1</a></li>
+                <li><a href="#movie2">2</a></li>
+                <li><a href="#movie3">3</a></li>
+                <li><a href="#movie4">4</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="page-header" id="movie1">
+            <h2>My favourite 1 movie</h2>
+        </div>
+        <center>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Krrish_3_poster.jpg" class="img-responsive">
+                <hr>
+                <h1> <kbd> Krrish 3 </kbd></h1>
+                <h5> Krrish and his father must defeat human-animal mutants created by an evil genius, Kaal, who is
+                    hell-bent on destroying the world. His vile army is led by a chameleon mutant, Kaya.
+                </h5>
+
+            </div>
+        </center>
+
+        <!--movie starts here-->
+        <div class="page-header">
+            <h2>Movies you should watch</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#movie2">
+            <span glyphicon glyphicon-film> </span> inside out <i class="fa fa-sort-dest "> </i>
+        </div>
+        <div id="movie2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <img
+                    src="https://cdn.shopify.com/s/files/1/0747/3829/products/HP2825_cf7fd6c5-9914-4e4b-b83f-a6bd38dda189_1024x1024.jpg?v=1571445025"
+                    class="img-responsive img-thumbnail"> </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+                <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span
+                    class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span
+                    class="glyphicon glyphicon-star"></span>
+                <br>
+
+                <p> Inside out is my favourite animated movie, I can watch it many times. I really like all the
+                    characters but joy is my favourite. Eleven-year-old Riley moves to San Francisco, leaving behind her
+                    life in Minnesota. She and her five core emotions, Fear, Anger, Joy, Disgust and Sadness, struggle
+                    to cope with her new life.
+                </p>
+            </div>
+        </div>
+        <!--news start here-->
+        <div class="page-header" id="movie3">
+            <h2>My favourite movie 3</h2>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Lion King </h4>
+                <img src="https://lumiere-a.akamaihd.net/v1/images/b_thelionking2019_header_poststreet_18276_ada305ce.jpeg"
+                    class="col-lg-5 col-md-5 col-sm-5 col-xs-12 img_responsi">
+                <p class="col-lg-7 col-md-7 col-sm-7 col-xs-12"> Simba, a young lion prince, flees his kingdom after the
+                    murder of his father, Mufasa. Years later, a chance encounter with Nala, a lioness, causes him to
+                    return and take back what is rightfully his.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Wall-E</h4>
+                <img width="100" src="data:image/jpeg;base64,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"
+                    class="col-lg-5 col-md-5 col-sm-5 col-xs-12 img_responsi">
+                <p class="col-lg-7 col-md-7 col-sm-7 col-xs-12">A machine responsible for cleaning a waste-covered Earth
+                    meets another robot and falls in love with her. Together, they set out on a journey that will alter
+                    the fate of mankind.
+
+
+                </p>
+            </li>
+        </ul>
+
+
+
+        <!--book section starts-->
+        <center>
+            <div class="page-header" id="#books">
+                <h2> Books I have read</h2>
+            </div>
+            <div class="books">
+                <h1> Diary of a Wimpy Kid-The Ugly Truth </h1>
+                <a href="https://www.flipkart.com/diary-wimpy-kid/p/itmf3qb7vsvuzzap?pid=9780141358062&lid=LSTBOK9780141358062Z35UHC&marketplace=FLIPKART&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_na&fm=SEARCH&iid=1b4d5c79-9d18-4f88-9847-133cb7ac4072.9780141358062.SEARCH&ppt=hp&ppn=homepage&ssid=q4pojr27cg0000001610971421353&qH=1b93f409f8057022" target="_blank">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/kingqkw0-0/book/x/a/n/diary-of-a-wimpy-kid-original-imafye63bzyvhfqk.jpeg?q=70" width="300">
+                </a>
+                <h1> HAUNTED CASTLE #46 By By Geronimo Stilton </h1>
+                <a href="https://www.flipkart.com/haunted-castle-46/p/itm3780ec44294e2?pid=9780545103749&lid=LSTBOK9780545103749DJVTYU&marketplace=FLIPKART&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&fm=SEARCH&iid=d51aaec1-86a4-465c-8386-632cc62c4a30.9780545103749.SEARCH&ppt=sp&ppn=sp&ssid=rb4mdb50ps0000001610971549620&qH=f3309835887b2f79" target="_blank">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/kjx6tu80/book/4/w/s/geronimo-stilton-46-haunted-castle-original-imafzdcqwtfnfafy.jpeg?q=70" width="300">
+                </a>
+            </div>
+        </center>
+
+
+    </div>
+</body>
+
+</html>
